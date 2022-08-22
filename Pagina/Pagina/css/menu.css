@@ -1,0 +1,48 @@
+
+.Galeria1{
+    text-align: center;
+    font-size:45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.servicios{
+    text-align: center;
+    font-size:30px;
+}
+
+
+.carta{
+    font-size:30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    text-align: initial;
+}
+div.galeria:hover{
+    box-shadow: 0px 6px 8px 6px lightskyblue, 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+    transition: all 0.5s ease;
+    transform: rotatey(180deg);
+
+}
+
+div.column--50-25:hover{
+    box-shadow: 0 6px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0,0,0,0.19);
+    transform: rotate(5deg);
+    
+}
+.img1:hover{
+    height:100%;
+    box-shadow: 0 6px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: all 1s ease;
+    transform: rotatey(180deg);
+    transform-style: preserve-3d;
+    -webkit-box-reflect: below 0px linear-gradient(transparent,transparent,#0004);
+
+}
+.our-team__title{
+    font-family: "Pacifico",cursive;
+    color: #3a7cde;
+    font-weight: bold;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
